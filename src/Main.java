@@ -17,6 +17,7 @@ public class Main {
         doubl = 6.53778;
         bool = true;
         c = 7;
+        if(i<2) System.out.println(c);
         System.out.println(l);
     }
 }
