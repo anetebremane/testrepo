@@ -5,7 +5,7 @@ public class Main {
         int i;
         long l;
         float f;
-        double d;
+        double doubl;
         boolean bool;
         char c;
 
@@ -14,7 +14,7 @@ public class Main {
         i = 3;
         l = 4567;
         f = 5.5f;
-        d = 6.53778;
+        doubl = 6.53778;
         bool = true;
         c = 7;
         System.out.println(l);
