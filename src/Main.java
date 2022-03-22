@@ -1,18 +1,16 @@
 import java.util.Scanner;
 
 public class Main {
-    static Scanner skeneris = new Scanner(System.in);
+    static Scanner skeneris = new Scanner(System.in);   //"static" - applies to all methods
     public static void main(String[] args) {
+       //calling a function
         Main.intN();
         Main.compare();
         Main.bool();
         Main.wholeN();
         Main.wholeNum();
-
-
-
-
-
+        Main.boolN();
+        //close
         skeneris.close();
     }
 
@@ -22,7 +20,7 @@ public class Main {
         int a = skeneris.nextInt();
         int b = skeneris.nextInt();
         System.out.println("is " + a + " equal to " + b + " ?");
-        System.out.println(a == b);
+        System.out.println(a == b);  //result is boolean
 
         System.out.println("is " + a + " less than " + b);
         System.out.println(a < b);
